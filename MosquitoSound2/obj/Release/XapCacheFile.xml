@@ -1,0 +1,15 @@
+﻿<xapCache source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\MosquitoSound2.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2012/01/22 12:37:43">
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2012/01/22 12:37:43" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Background.png" archivePath="Background.png" lastWriteTime="2012/01/22 12:27:26" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2012/01/22 12:27:25" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.dll" archivePath="MosquitoSound2.dll" lastWriteTime="2012/01/22 12:27:36" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\10000.wav" archivePath="Sounds\10000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\12000.wav" archivePath="Sounds\12000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\14000.wav" archivePath="Sounds\14000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\15000.wav" archivePath="Sounds\15000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\16000.wav" archivePath="Sounds\16000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\18000.wav" archivePath="Sounds\18000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\20000.wav" archivePath="Sounds\20000.wav" lastWriteTime="2012/01/22 2:23:02" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2012/01/22 2:22:25" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2012/01/22 12:27:37" />
+</xapCache>

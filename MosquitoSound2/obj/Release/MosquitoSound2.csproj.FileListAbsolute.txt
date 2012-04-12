@@ -1,0 +1,13 @@
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\ApplicationIcon.png
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\Background.png
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\MosquitoSound2.dll
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\MosquitoSound2.pdb
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\AppManifest.xaml
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\MosquitoSound2.xap
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\ResolveAssemblyReference.cache
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\App.g.i.cs
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MainPage.g.i.cs
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.g.resources
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.dll
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.pdb
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\XapCacheFile.xml
