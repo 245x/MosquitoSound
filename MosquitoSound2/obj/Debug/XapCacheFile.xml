@@ -1,8 +1,11 @@
-﻿<xapCache source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\MosquitoSound2.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2012/04/11 22:16:51">
+﻿<xapCache source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\MosquitoSound2.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2012/04/13 20:22:03">
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2012/04/03 10:07:15" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Background.png" archivePath="Background.png" lastWriteTime="2012/01/22 12:27:26" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2012/01/22 12:27:25" />
-  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Debug\MosquitoSound2.dll" archivePath="MosquitoSound2.dll" lastWriteTime="2012/04/11 22:16:50" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Debug\MosquitoSound2.dll" archivePath="MosquitoSound2.dll" lastWriteTime="2012/04/13 20:22:01" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\Microsoft.Advertising.Mobile.dll" archivePath="Microsoft.Advertising.Mobile.dll" lastWriteTime="2011/11/01 13:51:14" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll" archivePath="Microsoft.Advertising.Mobile.UI.dll" lastWriteTime="2011/11/01 13:51:16" />
+  <file source="C:\Program Files\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2012/03/19 16:29:06" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\10000.wav" archivePath="Sounds\10000.wav" lastWriteTime="2012/01/22 2:23:02" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\12000.wav" archivePath="Sounds\12000.wav" lastWriteTime="2012/01/22 2:23:02" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\14000.wav" archivePath="Sounds\14000.wav" lastWriteTime="2012/01/22 2:23:02" />
@@ -11,5 +14,5 @@
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\18000.wav" archivePath="Sounds\18000.wav" lastWriteTime="2012/01/22 2:23:02" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Sounds\20000.wav" archivePath="Sounds\20000.wav" lastWriteTime="2012/01/22 2:23:02" />
   <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2012/01/22 2:22:25" />
-  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2012/01/22 2:36:27" />
+  <file source="C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2012/04/13 18:00:22" />
 </xapCache>

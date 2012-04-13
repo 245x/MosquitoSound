@@ -22,6 +22,8 @@ namespace MosquitoSound2
         public MainPage()
         {
             InitializeComponent();
+
+            
         }
 
         
@@ -38,7 +40,7 @@ namespace MosquitoSound2
                 canPlay = true;
             }
             else {
-                if (MessageBox.Show("現在再生している音楽を停止してもよろしいですか？", "音楽を再生中です", MessageBoxButton.OKCancel) == MessageBoxResult.OK) {
+                if (MessageBox.Show("現在再生している音楽を停止してもよろしいですか？", "確認", MessageBoxButton.OKCancel) == MessageBoxResult.OK) {
                     canPlay = true;
                 }
             }
@@ -267,6 +269,45 @@ namespace MosquitoSound2
         {
             button7.Content = "20kHz";
         }
+        #endregion
+
+        #region mediaCurrentStateChangedEvent
+
+        private void media10kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button1.Content = media10kHz.CurrentState.ToString();
+        }
+
+        private void media12kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button2.Content = media12kHz.CurrentState.ToString();
+        }
+
+        private void media14kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button3.Content = media14kHz.CurrentState.ToString();
+        }
+
+        private void media15kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button4.Content = media15kHz.CurrentState.ToString();
+        }
+
+        private void media16kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button5.Content = media16kHz.CurrentState.ToString();
+        }
+
+        private void media18kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button6.Content = media18kHz.CurrentState.ToString();
+        }
+
+        private void media20kHzCurrentStateChangedEvent(object sender, RoutedEventArgs e)
+        {
+            button7.Content = media20kHz.CurrentState.ToString();
+        }
+
         #endregion
     }
 }
