@@ -11,19 +11,80 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
+using System.Windows.Threading;
+using System.Windows.Resources;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
 
 namespace MosquitoSound2
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        private SoundEffect media10kHz;
+        private SoundEffectInstance media10kHzInstance;
+
+        private SoundEffect media12kHz;
+        private SoundEffectInstance media12kHzInstance;
+
+        private SoundEffect media14kHz;
+        private SoundEffectInstance media14kHzInstance;
+
+        private SoundEffect media15kHz;
+        private SoundEffectInstance media15kHzInstance;
+        
+        private SoundEffect media16kHz;
+        private SoundEffectInstance media16kHzInstance;
+
+        private SoundEffect media18kHz;
+        private SoundEffectInstance media18kHzInstance;
+        
+        private SoundEffect media20kHz;
+        private SoundEffectInstance media20kHzInstance;
+
         // コンストラクター
         public MainPage()
         {
             InitializeComponent();
 
-            
+            LoadSoundInstance("Sounds/10000.wav", out media10kHz, out media10kHzInstance);
+            LoadSoundInstance("Sounds/12000.wav", out media12kHz, out media12kHzInstance);
+            LoadSoundInstance("Sounds/14000.wav", out media14kHz, out media14kHzInstance);
+            LoadSoundInstance("Sounds/15000.wav", out media15kHz, out media15kHzInstance);
+            LoadSoundInstance("Sounds/16000.wav", out media16kHz, out media16kHzInstance);
+            LoadSoundInstance("Sounds/18000.wav", out media18kHz, out media18kHzInstance);
+            LoadSoundInstance("Sounds/20000.wav", out media20kHz, out media20kHzInstance);
+
+            DispatcherTimer XnaDispatchTimer = new DispatcherTimer();
+            XnaDispatchTimer.Interval = TimeSpan.FromMilliseconds(50);
+
+            XnaDispatchTimer.Tick += delegate { try { FrameworkDispatcher.Update(); } catch { } };
+
+            XnaDispatchTimer.Start();
+        }
+
+        private void LoadSoundInstance(String SoundFilePath, out SoundEffect Sound, out SoundEffectInstance SoundInstance)
+        {
+            // For error checking, assume we'll fail to load the file.
+            Sound = null;
+            SoundInstance = null;
+
+            try
+            {
+                // Holds informations about a file stream.
+                StreamResourceInfo SoundFileInfo = App.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
+
+                // Create the SoundEffect from the Stream
+                Sound = SoundEffect.FromStream(SoundFileInfo.Stream);
+
+
+                SoundInstance = Sound.CreateInstance();
+            }
+            catch (NullReferenceException)
+            {
+                // Display an error message
+                MessageBox.Show("Couldn't load sound " + SoundFilePath);
+            }
         }
 
         
@@ -49,6 +110,138 @@ namespace MosquitoSound2
                 NavigationService.GoBack();
             }
         }
+
+        
+        private void allMediaStop(int i) {
+            
+            if (i != 1 && media10kHzInstance.State == SoundState.Playing) {
+                media10kHzInstance.Stop();
+            }
+
+            if (i != 2 && media12kHzInstance.State == SoundState.Playing)
+            {
+                media12kHzInstance.Stop();
+            }
+
+            if (i != 3 && media14kHzInstance.State == SoundState.Playing)
+            {
+                media14kHzInstance.Stop();
+            }
+
+            if (i != 4 && media15kHzInstance.State == SoundState.Playing)
+            {
+                media15kHzInstance.Stop();
+            }
+
+            if (i != 5 &&media16kHzInstance.State == SoundState.Playing)
+            {
+                media16kHzInstance.Stop();
+            }
+
+            if (i != 6 && media18kHzInstance.State == SoundState.Playing)
+            {
+                media18kHzInstance.Stop();
+            }
+
+            if (i != 7 && media20kHzInstance.State == SoundState.Playing)
+            {
+                media20kHzInstance.Stop();
+            }
+        }
+        
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(1);
+            if (media10kHzInstance.State == SoundState.Playing)
+            {
+                media10kHzInstance.Stop();
+            }
+            else {
+                media10kHzInstance.Play();
+            }
+            
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(2);
+            if (media12kHzInstance.State == SoundState.Playing)
+            {
+                media12kHzInstance.Stop();
+            }
+            else
+            {
+                media12kHzInstance.Play();
+            }
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(3);
+            if (media14kHzInstance.State == SoundState.Playing)
+            {
+                media14kHzInstance.Stop();
+            }
+            else
+            {
+                media14kHzInstance.Play();
+            }
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(4);
+            if (media15kHzInstance.State == SoundState.Playing)
+            {
+                media15kHzInstance.Stop();
+            }
+            else
+            {
+                media15kHzInstance.Play();
+            }
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(5);
+            if (media16kHzInstance.State == SoundState.Playing)
+            {
+                media16kHzInstance.Stop();
+            }
+            else
+            {
+                media16kHzInstance.Play();
+            }
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(6);
+            if (media18kHzInstance.State == SoundState.Playing)
+            {
+                media18kHzInstance.Stop();
+            }
+            else
+            {
+                media18kHzInstance.Play();
+            }
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            allMediaStop(7);
+            if (media20kHzInstance.State == SoundState.Playing)
+            {
+                media20kHzInstance.Stop();
+            }
+            else
+            {
+                media20kHzInstance.Play();
+            }
+        }
+        #region multiple MediaElement ver
+        /*
 
         #region button_Click
 
@@ -308,6 +501,8 @@ namespace MosquitoSound2
             button7.Content = media20kHz.CurrentState.ToString();
         }
 
+        #endregion
+        */
         #endregion
     }
 }

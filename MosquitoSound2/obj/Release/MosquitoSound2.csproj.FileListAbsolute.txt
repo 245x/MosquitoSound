@@ -11,3 +11,5 @@ C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound
 C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.dll
 C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\MosquitoSound2.pdb
 C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\obj\Release\XapCacheFile.xml
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\245x\Documents\Visual Studio 2010\Projects\MosquitoSound2\MosquitoSound2\Bin\Release\Microsoft.Phone.Controls.xml

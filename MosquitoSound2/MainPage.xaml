@@ -40,18 +40,13 @@
             <TextBlock Height="72" HorizontalAlignment="Left" Margin="12,162,0,0" Name="textBlock3" Text="耳年齢41~45歳" VerticalAlignment="Top" Width="272" FontSize="32" />
             <TextBlock Height="72" HorizontalAlignment="Left" Margin="12,240,0,0" Name="textBlock4" Text="耳年齢31~40歳" VerticalAlignment="Top" Width="272" FontSize="32" />
             <TextBlock Height="72" HorizontalAlignment="Left" Margin="12,318,0,0" Name="textBlock5" Text="耳年齢25~30歳" VerticalAlignment="Top" Width="272" FontSize="32" />
-            <TextBlock Height="72" HorizontalAlignment="Left" Margin="9,396,0,0" Name="textBlock6" Text="耳年齢18~24歳" VerticalAlignment="Top" Width="275" FontSize="32" />
-            <TextBlock Height="72" HorizontalAlignment="Left" Margin="9,474,0,0" Name="textBlock7" Text="耳年齢13~17歳" VerticalAlignment="Top" Width="275" FontSize="32" />
+            <TextBlock Height="72" HorizontalAlignment="Left" Margin="12,396,0,0" Name="textBlock6" Text="耳年齢18~24歳" VerticalAlignment="Top" Width="275" FontSize="32" />
+            <TextBlock Height="72" HorizontalAlignment="Left" Margin="12,474,0,0" Name="textBlock7" Text="耳年齢13~17歳" VerticalAlignment="Top" Width="275" FontSize="32" />
             <TextBlock Height="50" HorizontalAlignment="Center" Margin="12,552,0,0" Name="textBlock8" Text="※小さい音量で始めてください" VerticalAlignment="Top" FontSize="26" />
             
             
-            <MediaElement Name="media10kHz" Source="Sounds/10000.wav" AutoPlay="False" ManipulationCompleted="media10kHzCompleteEvent" MediaEnded="media10kHzEndedEvent" CurrentStateChanged="media10kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media12kHz" Source="Sounds/12000.wav" AutoPlay="False" ManipulationCompleted="media12kHzCompleteEvent" MediaEnded="media12kHzEndedEvent" CurrentStateChanged="media12kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media14kHz" Source="Sounds/14000.wav" AutoPlay="False" ManipulationCompleted="media14kHzCompleteEvent" MediaEnded="media14kHzEndedEvent" CurrentStateChanged="media14kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media15kHz" Source="Sounds/15000.wav" AutoPlay="False" ManipulationCompleted="media15kHzCompleteEvent" MediaEnded="media15kHzEndedEvent" CurrentStateChanged="media15kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media16kHz" Source="Sounds/16000.wav" AutoPlay="False" ManipulationCompleted="media16kHzCompleteEvent" MediaEnded="media16kHzEndedEvent" CurrentStateChanged="media16kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media18kHz" Source="Sounds/18000.wav" AutoPlay="False" ManipulationCompleted="media18kHzCompleteEvent" MediaEnded="media18kHzEndedEvent" CurrentStateChanged="media18kHzCurrentStateChangedEvent" />
-            <MediaElement Name="media20kHz" Source="Sounds/20000.wav" AutoPlay="False" ManipulationCompleted="media20kHzCompleteEvent" MediaEnded="media20kHzEndedEvent" CurrentStateChanged="media20kHzCurrentStateChangedEvent" />
+            <MediaElement Name="media" Source="Sounds/10000.wav" AutoPlay="False" Width="10" Height="10" />
+            
         </Grid>
     </Grid>
  
